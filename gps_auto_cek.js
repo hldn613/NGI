@@ -64,10 +64,10 @@ function delayedLoop() {
         document.getElementById(items[index]).click();
         setTimeout(() => {
             var nl = document.getElementById(items[index]).cells[5].textContent;
-            var x = document.getElementById("left_panel_objects_object_data_list_grid").rows[10].cells[1].innerHTML;
-            var t_posision = document.getElementById("left_panel_objects_object_data_list_grid").rows[8].cells[1].innerHTML;
-            var telf = document.getElementById("left_panel_objects_object_data_list_grid").rows[7].cells[1].innerHTML;
-            var t_serv = document.getElementById("left_panel_objects_object_data_list_grid").rows[9].cells[1].innerHTML;
+            var x = document.getElementById("left_panel_objects_object_data_list_grid").rows[12].cells[1].innerHTML;
+            var t_posision = document.getElementById("left_panel_objects_object_data_list_grid").rows[10].cells[1].innerHTML;
+            var telf = document.getElementById("left_panel_objects_object_data_list_grid").rows[9].cells[1].innerHTML;
+            var t_serv = document.getElementById("left_panel_objects_object_data_list_grid").rows[11].cells[1].innerHTML;
             var box2 = document.getElementById("box2");
 
             function updateScreen() {
